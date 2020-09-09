@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                    x:Class="FastDic.Themes.Light">
+    <Color x:Key="PageBackgroundColor">White</Color>
+    <Color x:Key="PrimaryColor">#ff33b5e5</Color>
+    <Color x:Key="SecondaryColor">#ff33b5e5</Color>
+    <Color x:Key="PrimaryTextColor">Black</Color>
+    <Color x:Key="SecondaryTextColor">#005ee5</Color>
+    <Color x:Key="TertiaryTextColor">pink</Color>
+    <Color x:Key="TransparentColor">Transparent</Color>
+    <Color x:Key="ButtonBackgroundColor">#ff33b5e5</Color>
+    <Color x:Key="ButtonTextColor">White</Color>
+    <Color x:Key="BarBackgroundColor">#ff33b5e5</Color>
+    <Color x:Key="LexicalCategoryColor">Black</Color>
+</ResourceDictionary>

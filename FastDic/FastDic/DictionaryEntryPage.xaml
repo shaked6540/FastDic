@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FastDic.DictionaryEntryPage"
+             Title="{Binding Word}">
+    <ContentPage.Content>
+        <Grid VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.92*" />
+                <RowDefinition Height="0.08*" />
+            </Grid.RowDefinitions>
+            <ScrollView Margin="10,0" VerticalOptions="Start" Grid.Row="0" x:Name="DefinitionsScrollView" CascadeInputTransparent="True" VerticalScrollBarVisibility="Always">
+                <StackLayout x:Name="ScrollViewStackLayout" >
+                </StackLayout>
+            </ScrollView>
+            <Button Grid.Row="1" Padding="0" Margin="0" Text="Back" Clicked="BackButton_Click" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" x:Name="BackButton" />
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

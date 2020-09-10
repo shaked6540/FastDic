@@ -1,10 +1,4 @@
 ﻿using SQLite;
-using System.Collections.Generic;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
-using System;
-using System.Linq;
-using System.Text;
 
 namespace FastDic.Models
 {

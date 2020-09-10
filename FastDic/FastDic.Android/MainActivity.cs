@@ -1,14 +1,9 @@
-﻿using System;
-
-using Android.App;
-using Android.Content.PM;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
+﻿using Android.App;
 using Android.Content;
+using Android.Content.PM;
 using Android.OS;
+using System;
 using System.IO;
-using Xamarin.Forms;
 
 namespace FastDic.Droid
 {
@@ -63,13 +58,6 @@ namespace FastDic.Droid
             {
                 asset.CopyTo(destination);
             }
-        }
-
-        public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
-        {
-            Xamarin.Essentials.Platform.OnRequestPermissionsResult(requestCode, permissions, grantResults);
-
-            base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }
 
         public App GetAppByIntent()

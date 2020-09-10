@@ -1,8 +1,6 @@
 ﻿using FastDic.Models;
 using FastDic.Themes;
-using System;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
 namespace FastDic
 {

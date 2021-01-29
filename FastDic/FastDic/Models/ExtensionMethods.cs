@@ -12,7 +12,7 @@ namespace FastDic.Models
             while (min <= max)
             {
                 int mid = (min + max) / 2;
-                if (comparer.Compare(key,func(inputArray[mid])) == 0)
+                if (comparer.Compare(key, func(inputArray[mid])) == 0)
                 {
                     return mid;
                 }

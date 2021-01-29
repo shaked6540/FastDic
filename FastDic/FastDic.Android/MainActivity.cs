@@ -17,7 +17,7 @@ namespace FastDic.Droid
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
 
-        readonly DateTime lastDBModification = new DateTime(2020, 9, 7, 0, 0, 0, 0, DateTimeKind.Utc);
+        readonly DateTime lastDBModification = new DateTime(2021, 1, 29, 0, 0, 0, 0, DateTimeKind.Utc);
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
